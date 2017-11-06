@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>SFLabNetActor Application</Description>
+    <Authors> </Authors>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>SFLabNetActorService</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>SFLabNetActorService</PackageId>
+    <PackageTargetFallback>$(PackageTargetFallback)</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../SFLabNetActor.Interfaces/SFLabNetActor.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ServiceFabric.Actors" Version="3.0.211-preview" />
+    <PackageReference Include="Microsoft.ServiceFabric" Version="6.1.211-preview" />
+    <PackageReference Include="Microsoft.ServiceFabric.Services" Version="3.0.211-preview" />
+  </ItemGroup>
+
+</Project>

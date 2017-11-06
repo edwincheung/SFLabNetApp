@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>SFLabNetActor.Interfaces Class Library</Description>
+    <Authors> </Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>SFLabNetActor.Interfaces</AssemblyName>
+    <PackageId>SFLabNetActor.Interfaces</PackageId>
+    <NetStandardImplicitPackageVersion>2.0.0</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback)</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ServiceFabric.Actors" Version="3.0.211-preview" />
+  </ItemGroup>
+
+</Project>
